@@ -4,4 +4,4 @@
 yacc -d ./commands.y
 lex ./commands.l
 
-gcc lex.yy.c y.tab.c -o commands -lfl
+gcc lex.yy.c y.tab.c -o commands -ll
